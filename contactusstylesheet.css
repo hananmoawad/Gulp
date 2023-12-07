@@ -1,0 +1,149 @@
+nav ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: right;
+  
+}
+nav li {
+  margin: 0 1rem 1rem 1rem;
+  font-size: 1.7rem;
+}
+
+nav .logo img {
+  max-width: 150px;
+}
+
+nav .logo {
+  flex-basis: 100%;
+  text-align: left;
+}
+ a {
+    color: #59331d;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  header {
+    border-bottom: 10px solid #d98555;
+  }
+  
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    display: block;
+  }
+  nav a:hover {
+    color: #d98555;
+  }
+
+ body {
+  background-color: #082B59;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  line-height: 2;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: 'Poppins', sans-serif;
+ 
+}
+
+  .main-bkgd {
+    background: #ffffff url(https://assets.codepen.io/6306176/gulp-bean-bkgd.jpg) repeat-x bottom;
+    padding-bottom: 300px;
+  }
+  
+  .main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+  section{
+    display: flex;
+    flex-direction:row;
+    margin:20rem;
+  }
+  p{
+    padding: 0 1rem;
+    font-size:1.5rem;
+   
+}
+img {
+  border-radius: 10px;
+  margin-left: 50rem;
+  margin-top: -13rem;
+   }
+   footer {
+    color: #f2f2f2;
+    text-align: center;
+    border-top: 10px solid #d98555;
+  }
+  footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+   
+
+  }
+  footer a {
+    color: #f2f2f2;
+    font-size: 2rem;
+    display: inline-block;
+    margin: 0 1rem 3rem 1rem;
+  }
+  .svg-container svg {
+    font-size:3rem;
+    position: relative; 
+    top: 50%;
+    transform: translateY(0%);
+    fill: #f2f2f2; 
+  }
+ 
+  @media screen and (min-width: 768px) {
+    .grid{
+      display: grid;
+      grid-template-columns: 1fr 1fr ;
+     
+    }
+    nav ul {
+      padding: 0;
+      margin: 0;
+      list-style-type: none;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+    }
+    nav .logo {
+      flex-basis: 100%;
+      text-align: center;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    .grid{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr ;
+     
+    }
+    nav ul {
+      padding: 0;
+      margin: 0;
+      list-style-type: none;
+      justify-content: center;
+    }
+    nav .logo {
+      flex-basis: 100%;
+      text-align: center;
+    }
+  }

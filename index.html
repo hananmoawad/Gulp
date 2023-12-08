@@ -9,7 +9,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@700&display=swap" rel="stylesheet">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 <link rel="stylesheet" href="about.css">
-<link rel="stylesheet" href="all style sheet.css">
+<link rel="stylesheet" href="allstylesheet.css">
 <title>about</title>
 </head>
 <body>
@@ -17,20 +17,22 @@
     <nav>
       <ul>
         <li class=" logo"><a href="https://uxuicurriculum.wixsite.com/gulproast"><img src="https://assets.codepen.io/6306176/gulp-logo-light.png" alt="Gulp Roast. Click for home." /></a></li>
-        <li><a href="index.html"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512">
-          <style>svg{fill:#ffffff; padding-top: 15px; padding-right: 5px; float:left;}</style>
-          <path d="M96 64c0-17.7 14.3-32 32-32H448h64c70.7 0 128 57.3 128 128s-57.3 128-128 128H480c0 53-43 96-96 96H192c-53 0-96-43-96-96V64zM480 224h32c35.3 0 64-28.7 64-64s-28.7-64-64-64H480V224zM32 416H544c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32z"/></svg>About</a></li>
+        <li><a href="index.html">
+          <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512">
+          
+          <style>svg{fill: #f2f2f2; }</style>
+          <path d="M96 64c0-17.7 14.3-32 32-32H448h64c70.7 0 128 57.3 128 128s-57.3 128-128 128H480c0 53-43 96-96 96H192c-53 0-96-43-96-96V64zM480 224h32c35.3 0 64-28.7 64-64s-28.7-64-64-64H480V224zM32 416H544c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32z"/></svg> About</a></li>
        
           
         <li><a href="product.html"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512"><style>svg{fill:#f2f2f2}</style><path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/></svg> Products</a></li>
         <li><a href="contactus.html">
-          <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"/></svg>Contact</a></li>
+          <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"/></svg> Contact</a></li>
       </ul>
     </nav>
   </header>
   <div class="main-bkgd">
     <section class="main">
-      <article>
+      <article class="card">
        
         <h1>About Us</h1>
         <p>Life without coffee is a gloomy place. That’s why Gulp Roast has been proudly serving up fresh coffee to the <a href="https://goo.gl/maps/3rAyszfwSDx8Si2Y9" target="_blank">San Francisco area</a> since 2000. Our coffee is locally sourced with the most delicious blends coming directly to your home, right from coffee farmers near you. Our coffee makes even the most difficult days just a tad easier to get through.</p>
@@ -39,11 +41,11 @@
   
         <a class="button" href="contactus.html">Contact Us</a>
       </article>
-      <figure>
+      <figure class="card">
         <picture>
-          <source srcset="images/gulp-pouring-coffee-vertical.jpg" media screen and="(min-width: 992px)">
-          <source srcset="images/gulp-pouring-coffee-vertical.jpg" media screen and="(min-width: 768px)">
-          <img src="images/gulp-pouring-coffee-horizontal-sm.jpg" alt="small" />
+          <source srcset="images/gulp-pouring-coffee-vertical.jpg" media ="(min-width: 992px)">
+          <source srcset="images/gulp-pouring-coffee-horizontal.jpg" media ="(min-width: 768px)">
+          <img  class="cub"src="images/gulp-pouring-coffee-horizontal-sm.jpg" alt="small" />
       </picture>
     
       </figure>

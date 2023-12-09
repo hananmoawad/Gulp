@@ -172,7 +172,8 @@ footer a {
   .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-
+    padding: 0;
+    margin: 0;
   }
 
   nav ul {
@@ -195,5 +196,4 @@ footer a {
     margin-left: 60rem;
     margin-top: -60rem;
   }
-  
 }
